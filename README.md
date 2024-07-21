@@ -8,6 +8,8 @@ This project is a Node.js application designed for managing customers, products,
 
 ```plaintext
 Customer-and-Order-Management/
+│── db/
+│   ├── connection.js
 ├── src/
 │   ├── modules/
 │   │   ├── customers/
@@ -22,8 +24,6 @@ Customer-and-Order-Management/
 │   ├── middleware/
 │   │   ├── authMiddleware.js
 │   │   ├── errorHandler.js
-│   ├── db/
-│   │   ├── connection.js
 │── index.js
 ├── .gitignore
 ├── README.md
